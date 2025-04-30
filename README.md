@@ -10,6 +10,8 @@ In today's fast-paced world, many individuals struggle with managing personal fi
 
 AgentForce is a Salesforce-native Conversational AI solution that guides users through their financial journey with empathy, intelligence, and precision. Powered by AI and integrated with Google services and Slack, it not only collects financial data but delivers smart insights and connects customers with human advisors.
 
+<img width="751" alt="Screenshot 2025-04-30 151413" src="https://github.com/user-attachments/assets/9fff84c7-d57b-4184-a67a-a9532e92cb4f" />
+
 ### ✨ Key Features:
 
 - **AI-Powered Financial Insights**: Understand spending habits and generate intelligent savings and budget reports.
