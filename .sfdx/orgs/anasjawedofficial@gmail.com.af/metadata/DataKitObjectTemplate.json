@@ -1,0 +1,47 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmjSMYAZ",
+      "createdByName": "Manish Porwal",
+      "createdDate": "2025-04-30T03:30:11.000Z",
+      "fileName": "dataKitObjectTemplates/cdp_crm_dk1__ExtractEventParticipantsAndTopics.dataKitObjectTemplate",
+      "fullName": "cdp_crm_dk1__ExtractEventParticipantsAndTopics",
+      "id": "2LwNS000000Z3mE0AS",
+      "lastModifiedById": "005NS00000KmjSMYAZ",
+      "lastModifiedByName": "Manish Porwal",
+      "lastModifiedDate": "2025-04-30T03:30:11.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "cdp_crm_dk1",
+      "type": "DataKitObjectTemplate"
+    },
+    {
+      "createdById": "005NS00000KmjSMYAZ",
+      "createdByName": "Manish Porwal",
+      "createdDate": "2025-04-30T03:30:11.000Z",
+      "fileName": "dataKitObjectTemplates/cdp_crm_dk1__ExtractVoiceCallParticipantsAndTopics.dataKitObjectTemplate",
+      "fullName": "cdp_crm_dk1__ExtractVoiceCallParticipantsAndTopics",
+      "id": "2LwNS000000Z3mF0AS",
+      "lastModifiedById": "005NS00000KmjSMYAZ",
+      "lastModifiedByName": "Manish Porwal",
+      "lastModifiedDate": "2025-04-30T03:30:11.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "cdp_crm_dk1",
+      "type": "DataKitObjectTemplate"
+    },
+    {
+      "createdById": "005NS00000KmjSMYAZ",
+      "createdByName": "Manish Porwal",
+      "createdDate": "2025-04-30T03:30:11.000Z",
+      "fileName": "dataKitObjectTemplates/cdp_crm_dk1__ExtractEmailMessageTopics.dataKitObjectTemplate",
+      "fullName": "cdp_crm_dk1__ExtractEmailMessageTopics",
+      "id": "2LwNS000000Z3mD0AS",
+      "lastModifiedById": "005NS00000KmjSMYAZ",
+      "lastModifiedByName": "Manish Porwal",
+      "lastModifiedDate": "2025-04-30T03:30:11.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "cdp_crm_dk1",
+      "type": "DataKitObjectTemplate"
+    }
+  ]
+}

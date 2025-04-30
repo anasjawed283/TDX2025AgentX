@@ -1,0 +1,35 @@
+{
+  "required" : [ "Account_Id", "Customer_Name" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Account_Id" : {
+      "title" : "Account_Id",
+      "description" : "The record id of the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Customer_Name" : {
+      "title" : "Customer_Name",
+      "description" : "the customer name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "End_Date_time" : {
+      "title" : "End_Date_time",
+      "description" : "meet end time",
+      "lightning:type" : "lightning__dateTimeStringType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Start_Date_Time" : {
+      "title" : "Start_Date_Time",
+      "description" : "meet start time",
+      "lightning:type" : "lightning__dateTimeStringType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

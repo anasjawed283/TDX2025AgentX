@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmdmjYAB",
+      "createdByName": "Anas Jawed",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "apexEmailNotifications/apexEmailNotifications.notifications",
+      "fullName": "apexEmailNotifications",
+      "id": "",
+      "lastModifiedById": "005NS00000KmdmjYAB",
+      "lastModifiedByName": "Anas Jawed",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "ApexEmailNotifications"
+    }
+  ]
+}

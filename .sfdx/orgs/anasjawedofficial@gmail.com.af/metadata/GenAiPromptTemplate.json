@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmdmjYAB",
+      "createdByName": "Anas Jawed",
+      "createdDate": "2025-04-30T04:46:55.000Z",
+      "fileName": "genAiPromptTemplates/Slack_Message_Summary.genAiPromptTemplate",
+      "fullName": "Slack_Message_Summary",
+      "id": "0hfNS000008Lw7dYAC",
+      "lastModifiedById": "005NS00000KmdmjYAB",
+      "lastModifiedByName": "Anas Jawed",
+      "lastModifiedDate": "2025-04-30T06:33:40.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiPromptTemplate"
+    },
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-29T11:59:27.000Z",
+      "fileName": "genAiPromptTemplates/FinRecommendations.genAiPromptTemplate",
+      "fullName": "FinRecommendations",
+      "id": "0hfNS000008JWZ3YAO",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-30T05:56:00.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiPromptTemplate"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This action triggers after collecting all financial details of customer and updates financial fields collected from customer on the Account object and return the account ID.</description>
+    <invocationTarget>AccountFinancialsUpdater</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>Update Account Financials</masterLabel>
+    <progressIndicatorMessage>Updating the record</progressIndicatorMessage>
+</GenAiFunction>

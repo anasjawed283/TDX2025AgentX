@@ -1,0 +1,53 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000K9g9QYAR",
+      "createdByName": "Automated Process",
+      "createdDate": "2025-04-21T12:42:19.000Z",
+      "fileName": "serviceChannels/sfdc_phone.serviceChannel",
+      "fullName": "sfdc_phone",
+      "id": "0N9NS0000010FPu0AM",
+      "lastModifiedById": "005NS00000K9g9QYAR",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2025-04-21T12:42:19.000Z",
+      "type": "ServiceChannel"
+    },
+    {
+      "createdById": "005NS00000K9g9QYAR",
+      "createdByName": "Automated Process",
+      "createdDate": "2025-04-21T12:26:24.000Z",
+      "fileName": "serviceChannels/sfdc_sos.serviceChannel",
+      "fullName": "sfdc_sos",
+      "id": "0N9NS0000010DpV0AU",
+      "lastModifiedById": "005NS00000K9g9QYAR",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2025-04-21T12:26:24.000Z",
+      "type": "ServiceChannel"
+    },
+    {
+      "createdById": "005NS00000K9mOVYAZ",
+      "createdByName": "OrgFarm EPIC",
+      "createdDate": "2025-04-21T12:42:22.000Z",
+      "fileName": "serviceChannels/Cases.serviceChannel",
+      "fullName": "Cases",
+      "id": "0N9NS0000010DuO0AU",
+      "lastModifiedById": "005NS00000K9mOVYAZ",
+      "lastModifiedByName": "OrgFarm EPIC",
+      "lastModifiedDate": "2025-04-21T12:42:22.000Z",
+      "type": "ServiceChannel"
+    },
+    {
+      "createdById": "005NS00000K9g9QYAR",
+      "createdByName": "Automated Process",
+      "createdDate": "2025-04-21T12:42:19.000Z",
+      "fileName": "serviceChannels/sfdc_livemessage.serviceChannel",
+      "fullName": "sfdc_livemessage",
+      "id": "0N9NS0000010FPt0AM",
+      "lastModifiedById": "005NS00000K9g9QYAR",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2025-04-21T12:42:19.000Z",
+      "type": "ServiceChannel"
+    }
+  ]
+}

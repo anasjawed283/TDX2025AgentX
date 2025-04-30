@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000K9g9QYAR",
+      "createdByName": "Automated Process",
+      "createdDate": "2025-04-21T12:26:24.000Z",
+      "fileName": "fieldRestrictionRules/Rule9dae92fb940144331386cdcb1d17158929fec6eee81d011cd1456ae3efa6fa7a.rule",
+      "fullName": "Rule9dae92fb940144331386cdcb1d17158929fec6eee81d011cd1456ae3efa6fa7a",
+      "id": "0lrNS000000P8SDYA0",
+      "lastModifiedById": "005NS00000K9mOVYAZ",
+      "lastModifiedByName": "OrgFarm EPIC",
+      "lastModifiedDate": "2025-04-21T12:41:06.000Z",
+      "manageableState": "unmanaged",
+      "type": "FieldRestrictionRule"
+    },
+    {
+      "createdById": "005NS00000K9g9QYAR",
+      "createdByName": "Automated Process",
+      "createdDate": "2025-04-21T12:26:24.000Z",
+      "fileName": "fieldRestrictionRules/Rule9269f84683ce931ff8d906878efddeadde7c4907c0ff4d41af96c0e1762ae871.rule",
+      "fullName": "Rule9269f84683ce931ff8d906878efddeadde7c4907c0ff4d41af96c0e1762ae871",
+      "id": "0lrNS000000P8SEYA0",
+      "lastModifiedById": "005NS00000K9mOVYAZ",
+      "lastModifiedByName": "OrgFarm EPIC",
+      "lastModifiedDate": "2025-04-21T12:41:07.000Z",
+      "manageableState": "unmanaged",
+      "type": "FieldRestrictionRule"
+    }
+  ]
+}

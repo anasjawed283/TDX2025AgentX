@@ -1,0 +1,28 @@
+{
+  "required" : [ "Account_Id", "End_Date_time", "Start_Date_Time" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Account_Id" : {
+      "title" : "Account_Id",
+      "description" : "Account_Id of the customer",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "End_Date_time" : {
+      "title" : "End_Date_time",
+      "description" : "Customer meeting end time",
+      "lightning:type" : "lightning__dateTimeStringType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Start_Date_Time" : {
+      "title" : "Start_Date_Time",
+      "description" : "Customer meeting start time",
+      "lightning:type" : "lightning__dateTimeStringType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

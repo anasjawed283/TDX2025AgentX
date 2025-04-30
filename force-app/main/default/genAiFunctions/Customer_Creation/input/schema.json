@@ -1,0 +1,35 @@
+{
+  "required" : [ "Customer_Email", "Customer_First_Name", "Customer_Last_Name", "Customer_Mobile" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Customer_Email" : {
+      "title" : "Customer_Email",
+      "description" : "The mail address of the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Customer_First_Name" : {
+      "title" : "Customer_First_Name",
+      "description" : "The first name of the customer",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Customer_Last_Name" : {
+      "title" : "Customer_Last_Name",
+      "description" : "The last name of the customer",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Customer_Mobile" : {
+      "title" : "Customer_Mobile",
+      "description" : "The phone number of the customer",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

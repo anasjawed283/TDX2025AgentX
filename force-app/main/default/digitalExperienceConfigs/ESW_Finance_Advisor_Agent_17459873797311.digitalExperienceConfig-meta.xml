@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>ESW_Finance_Advisor_Agent_1745987379731</label>
+    <site>
+        <urlPathPrefix>ESWFinanceAdvisorAgent1745987379731</urlPathPrefix>
+    </site>
+    <space>site/ESW_Finance_Advisor_Agent_17459873797311</space>
+</DigitalExperienceConfig>

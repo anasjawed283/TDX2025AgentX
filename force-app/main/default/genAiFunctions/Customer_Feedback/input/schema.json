@@ -1,0 +1,21 @@
+{
+  "required" : [ "Customer_Comments", "Customer_rating" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Customer_Comments" : {
+      "title" : "Customer_Comments",
+      "description" : "The comments of the customer",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Customer_rating" : {
+      "title" : "Customer_rating",
+      "description" : "The rating of the customer ranging from 1 to 5.",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

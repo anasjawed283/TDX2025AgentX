@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmZeIYAV",
+      "createdByName": "Ananya Mukherjee",
+      "createdDate": "2025-04-30T04:29:52.000Z",
+      "fileName": "digitalExperiences/site/ESW_Finance_Advisor_Agent_17459873797311.digitalExperience",
+      "fullName": "site/ESW_Finance_Advisor_Agent_17459873797311",
+      "id": "0jdNS000000colNYAQ",
+      "lastModifiedById": "005NS00000KmZeIYAV",
+      "lastModifiedByName": "Ananya Mukherjee",
+      "lastModifiedDate": "2025-04-30T04:29:52.000Z",
+      "manageableState": "unmanaged",
+      "type": "DigitalExperienceBundle"
+    },
+    {
+      "createdById": "005NS00000K9g9QYAR",
+      "createdByName": "Automated Process",
+      "createdDate": "2025-04-21T12:26:24.000Z",
+      "fileName": "digitalExperiences/enablement/sfdcEnablement_EnablementWorkspace.digitalExperience",
+      "fullName": "enablement/sfdcEnablement_EnablementWorkspace",
+      "id": "0jdNS000000ZAR7YAO",
+      "lastModifiedById": "005NS00000K9g9QYAR",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2025-04-21T12:26:24.000Z",
+      "manageableState": "unmanaged",
+      "type": "DigitalExperienceBundle"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmjSMYAZ",
+      "createdByName": "Manish Porwal",
+      "createdDate": "2025-04-30T03:30:11.000Z",
+      "fileName": "dataSourceBundleDefinitions/cdp_crm_dk1__Emails.dataSourceBundleDefinition",
+      "fullName": "cdp_crm_dk1__Emails",
+      "id": "1raNS000000Kx0jYAC",
+      "lastModifiedById": "005NS00000KmjSMYAZ",
+      "lastModifiedByName": "Manish Porwal",
+      "lastModifiedDate": "2025-04-30T03:30:11.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "cdp_crm_dk1",
+      "type": "DataSourceBundleDefinition"
+    },
+    {
+      "createdById": "005NS00000KmjSMYAZ",
+      "createdByName": "Manish Porwal",
+      "createdDate": "2025-04-30T03:30:11.000Z",
+      "fileName": "dataSourceBundleDefinitions/cdp_crm_dk1__Events.dataSourceBundleDefinition",
+      "fullName": "cdp_crm_dk1__Events",
+      "id": "1raNS000000Kx0kYAC",
+      "lastModifiedById": "005NS00000KmjSMYAZ",
+      "lastModifiedByName": "Manish Porwal",
+      "lastModifiedDate": "2025-04-30T03:30:11.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "cdp_crm_dk1",
+      "type": "DataSourceBundleDefinition"
+    },
+    {
+      "createdById": "005NS00000KmjSMYAZ",
+      "createdByName": "Manish Porwal",
+      "createdDate": "2025-04-30T03:30:11.000Z",
+      "fileName": "dataSourceBundleDefinitions/cdp_crm_dk1__Sales.dataSourceBundleDefinition",
+      "fullName": "cdp_crm_dk1__Sales",
+      "id": "1raNS000000Kx0lYAC",
+      "lastModifiedById": "005NS00000KmjSMYAZ",
+      "lastModifiedByName": "Manish Porwal",
+      "lastModifiedDate": "2025-04-30T03:30:11.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "cdp_crm_dk1",
+      "type": "DataSourceBundleDefinition"
+    },
+    {
+      "createdById": "005NS00000KmjSMYAZ",
+      "createdByName": "Manish Porwal",
+      "createdDate": "2025-04-30T03:30:11.000Z",
+      "fileName": "dataSourceBundleDefinitions/cdp_crm_dk1__VoiceCalls.dataSourceBundleDefinition",
+      "fullName": "cdp_crm_dk1__VoiceCalls",
+      "id": "1raNS000000Kx0nYAC",
+      "lastModifiedById": "005NS00000KmjSMYAZ",
+      "lastModifiedByName": "Manish Porwal",
+      "lastModifiedDate": "2025-04-30T03:30:11.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "cdp_crm_dk1",
+      "type": "DataSourceBundleDefinition"
+    },
+    {
+      "createdById": "005NS00000KmjSMYAZ",
+      "createdByName": "Manish Porwal",
+      "createdDate": "2025-04-30T03:30:11.000Z",
+      "fileName": "dataSourceBundleDefinitions/cdp_crm_dk1__VideoCalls.dataSourceBundleDefinition",
+      "fullName": "cdp_crm_dk1__VideoCalls",
+      "id": "1raNS000000Kx0mYAC",
+      "lastModifiedById": "005NS00000KmjSMYAZ",
+      "lastModifiedByName": "Manish Porwal",
+      "lastModifiedDate": "2025-04-30T03:30:11.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "cdp_crm_dk1",
+      "type": "DataSourceBundleDefinition"
+    }
+  ]
+}

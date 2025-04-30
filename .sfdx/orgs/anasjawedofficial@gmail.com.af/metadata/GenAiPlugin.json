@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-29T10:03:56.000Z",
+      "fileName": "genAiPlugins/Customer.genAiPlugin",
+      "fullName": "Customer",
+      "id": "179NS000001cGJJYA2",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-30T09:36:19.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiPlugin"
+    }
+  ]
+}

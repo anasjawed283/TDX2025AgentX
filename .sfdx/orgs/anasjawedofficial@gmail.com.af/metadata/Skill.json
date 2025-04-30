@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmjSMYAZ",
+      "createdByName": "Manish Porwal",
+      "createdDate": "2025-04-29T13:36:02.000Z",
+      "fileName": "skills/Wealth_Management.skill",
+      "fullName": "Wealth_Management",
+      "id": "0C5NS000000Cfgv0AC",
+      "lastModifiedById": "005NS00000KmjSMYAZ",
+      "lastModifiedByName": "Manish Porwal",
+      "lastModifiedDate": "2025-04-29T13:36:02.000Z",
+      "type": "Skill"
+    }
+  ]
+}

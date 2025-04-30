@@ -1,0 +1,63 @@
+{
+  "required" : [ "accountId", "customerMonthlyIncome", "customerMonthlySavings", "entertainment", "food", "health", "otherExpenses", "riskAppetite" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "accountId" : {
+      "title" : "accountId",
+      "description" : "The record ID of record to be updated",
+      "lightning:type" : "lightning__recordIdType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "customerMonthlyIncome" : {
+      "title" : "customerMonthlyIncome",
+      "description" : "Customer's monthly income",
+      "lightning:type" : "lightning__integerType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "customerMonthlySavings" : {
+      "title" : "customerMonthlySavings",
+      "description" : "customer's monthly savings",
+      "lightning:type" : "lightning__integerType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "entertainment" : {
+      "title" : "entertainment",
+      "description" : "customer's expense on entertainment",
+      "lightning:type" : "lightning__integerType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "food" : {
+      "title" : "food",
+      "description" : "customer's expense on food",
+      "lightning:type" : "lightning__integerType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "health" : {
+      "title" : "health",
+      "description" : "customer's expense on health",
+      "lightning:type" : "lightning__integerType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "otherExpenses" : {
+      "title" : "otherExpenses",
+      "description" : "customer's other expense",
+      "lightning:type" : "lightning__integerType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "riskAppetite" : {
+      "title" : "riskAppetite",
+      "description" : "Risk appetite of user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

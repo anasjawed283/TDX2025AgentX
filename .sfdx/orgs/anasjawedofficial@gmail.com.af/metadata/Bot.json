@@ -1,0 +1,29 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmZeIYAV",
+      "createdByName": "Ananya Mukherjee",
+      "createdDate": "2025-04-29T10:11:38.000Z",
+      "fileName": "bots/Copilot_for_Salesforce.bot",
+      "fullName": "Copilot_for_Salesforce",
+      "id": "0XxNS000000mOOD0A2",
+      "lastModifiedById": "005NS00000KmZeIYAV",
+      "lastModifiedByName": "Ananya Mukherjee",
+      "lastModifiedDate": "2025-04-29T10:11:38.000Z",
+      "type": "Bot"
+    },
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-29T09:43:48.000Z",
+      "fileName": "bots/Finanace_Advisor_Agent.bot",
+      "fullName": "Finanace_Advisor_Agent",
+      "id": "0XxNS000000mNGr0AM",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-29T09:43:48.000Z",
+      "type": "Bot"
+    }
+  ]
+}

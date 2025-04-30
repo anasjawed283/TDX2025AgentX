@@ -1,0 +1,29 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000K9g9QYAR",
+      "createdByName": "Automated Process",
+      "createdDate": "2025-04-29T11:09:41.000Z",
+      "fileName": "dataSourceTenants/AI_Platform_00DNS00000Iba8c.dataSourceTenant",
+      "fullName": "AI_Platform_00DNS00000Iba8c",
+      "id": "0hQNS000002CaEf2AK",
+      "lastModifiedById": "005NS00000K9g9QYAR",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2025-04-29T11:09:41.000Z",
+      "type": "DataSourceTenant"
+    },
+    {
+      "createdById": "005NS00000K9g9QYAR",
+      "createdByName": "Automated Process",
+      "createdDate": "2025-04-21T14:55:04.000Z",
+      "fileName": "dataSourceTenants/SalesforceDotCom_Home.dataSourceTenant",
+      "fullName": "SalesforceDotCom_Home",
+      "id": "0hQNS0000021pVZ2AY",
+      "lastModifiedById": "005NS00000K9g9QYAR",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2025-04-21T14:55:04.000Z",
+      "type": "DataSourceTenant"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmZeIYAV",
+      "createdByName": "Ananya Mukherjee",
+      "createdDate": "2025-04-30T05:41:02.000Z",
+      "fileName": "brandingSets/EmbeddedServiceConfig_BrandingSet_19685367b95.brandingSet",
+      "fullName": "EmbeddedServiceConfig_BrandingSet_19685367b95",
+      "id": "0LwNS000000Z6CD0A0",
+      "lastModifiedById": "005NS00000KmZeIYAV",
+      "lastModifiedByName": "Ananya Mukherjee",
+      "lastModifiedDate": "2025-04-30T05:41:02.000Z",
+      "manageableState": "unmanaged",
+      "type": "BrandingSet"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "required" : [ "Input:userInstructions", "citationMode" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Input:userInstructions" : {
+      "title" : "userInstructions",
+      "description" : "Prompt with customer details named as Income, Savings, expenses and risk appetite.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "citationMode" : {
+      "title" : "Citation Mode",
+      "description" : "Select Citation Mode",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

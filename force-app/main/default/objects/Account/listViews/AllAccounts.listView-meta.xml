@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>PC_FIRST_NAME</columns>
+    <columns>PC_LAST_NAME</columns>
+    <columns>PC_PHONE3</columns>
+    <columns>PC_EMAIL</columns>
+    <columns>Monthly_Income__c</columns>
+    <columns>Monthly_Savings__c</columns>
+    <columns>Food__c</columns>
+    <columns>Health__c</columns>
+    <columns>Education__c</columns>
+    <columns>Other_Expenses__c</columns>
+    <columns>Risk_Appetite__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Accounts</label>
+</ListView>

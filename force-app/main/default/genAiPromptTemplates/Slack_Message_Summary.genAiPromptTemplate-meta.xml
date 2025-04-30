@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>j17gF0iExmUXOK5IEKy2HWee5iZaL7RDm16+fUirGYk=_8</activeVersionIdentifier>
+    <description>This will summarise entire record and will be displayed on Slack Internal firm channel</description>
+    <developerName>Slack_Message_Summary</developerName>
+    <masterLabel>Slack Message Summary</masterLabel>
+    <relatedEntity>Account</relatedEntity>
+    <templateVersions>
+        <content>Summarize the following Salesforce Account record in a professional paragraph format for internal review:
+
+Account Name: {{Name}}
+Salutation: {{Salutation}} {{FirstName}} {{LastName}}
+Title: {{PersonTitle}}, Department: {{PersonDepartment}}
+Account Number: {{AccountNumber}}, Site: {{Site}}, Record Type: {{RecordTypeId}}
+Owner ID: {{OwnerId}}, Created By: {{CreatedById}}, Last Modified By: {{LastModifiedById}}
+
+Contact Details:
+Phone: {{Phone}}, Mobile: {{PersonMobilePhone}}, Email: {{PersonEmail}}
+
+Financial Overview:
+Monthly Income: {{Monthly_Income__c}}, Monthly Expenses: {{Monthly_Expenses__c}}, Monthly Savings: {{Monthly_Savings__c}}, Other Expenses: {{Other_Expenses__c}}, Education: {{Education__c}}, Entertainment: {{Entertainment__c}}, Food: {{Food__c}}, Health: {{Health__c}}
+
+Preferences &amp; Status:
+Lead Source: {{PersonLeadSource}}, Customer Interest: {{Customer_Interest__c}}, Risk Appetite: {{Risk_Appetite__c}}, Active: {{IsActive}}, Buyer Account: {{IsBuyer}}, Partner Account: {{IsPartner}}
+
+Birthdate: {{PersonBirthdate}}, Gender Identity: {{PersonGenderIdentity}}, Pronouns: {{PersonPronouns}}
+
+Please use this summary to assess and follow up as necessary.
+
+</content>
+        <inputs>
+            <apiName>objectToSummarize</apiName>
+            <definition>SOBJECT://Account</definition>
+            <referenceName>Input:Account</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>j17gF0iExmUXOK5IEKy2HWee5iZaL7RDm16+fUirGYk=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Based on the following Salesforce Account record, generate a structured summary in JSON format with the following keys:
+[&apos;compliance report&apos;, &apos;insights from store audits and product surveys&apos;, &apos;other useful insights&apos;]
+
+Use this data:
+Account Name: {!$Input:Account.Name}
+Salutation: {!$Input:Account.Salutation}
+First Name: {!$Input:Account.FirstName}
+Last Name: {!$Input:Account.LastName}
+Account Number: {!$Input:Account.AccountNumber}
+Customer Interest: {!$Input:Account.Customer_Interest__c}
+Description: {!$Input:Account.Description}
+Education: {!$Input:Account.Education__c}
+Effective Date: {!$Input:Account.EffectiveDate}
+Email: {!$Input:Account.PersonEmail}
+Entertainment: {!$Input:Account.Entertainment__c}
+Food: {!$Input:Account.Food__c}
+Gender Identity: {!$Input:Account.PersonGenderIdentity}
+Health: {!$Input:Account.Health__c}
+Home Phone: {!$Input:Account.PersonHomePhone}
+Mobile: {!$Input:Account.PersonMobilePhone}
+Monthly Expenses: {!$Input:Account.Monthly_Expenses__c}
+Monthly Income: {!$Input:Account.Monthly_Income__c}
+Monthly Savings: {!$Input:Account.Monthly_Savings__c}
+Other Expenses: {!$Input:Account.Other_Expenses__c}
+Phone: {!$Input:Account.Phone}
+Risk Appetite: {!$Input:Account.Risk_Appetite__c}
+
+Instructions:
+- Generate a short compliance report.
+- Analyze financial patterns from Monthly Income, Expenses, and Savings.
+- Identify any risks from Risk Appetite, Rating, and related fields.
+- Recommend actions based on interests, portal status, and program tier.
+- Suggest cross-selling or upselling opportunities.
+- Include other customer insights based on behavior and profile.
+
+</content>
+        <inputs>
+            <apiName>objectToSummarize</apiName>
+            <definition>SOBJECT://Account</definition>
+            <referenceName>Input:Account</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>j17gF0iExmUXOK5IEKy2HWee5iZaL7RDm16+fUirGYk=_2</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Based on the following Salesforce Account record, generate a structured summary with the following keys:
+[&apos;compliance report&apos;, &apos;insights from store audits and product surveys&apos;, &apos;other useful insights&apos;]
+
+Use this data:
+Account Name: {!$Input:Account.Name}
+Salutation: {!$Input:Account.Salutation}
+First Name: {!$Input:Account.FirstName}
+Last Name: {!$Input:Account.LastName}
+Account Number: {!$Input:Account.AccountNumber}
+Customer Interest: {!$Input:Account.Customer_Interest__c}
+Description: {!$Input:Account.Description}
+Education: {!$Input:Account.Education__c}
+Effective Date: {!$Input:Account.EffectiveDate}
+Email: {!$Input:Account.PersonEmail}
+Entertainment: {!$Input:Account.Entertainment__c}
+Food: {!$Input:Account.Food__c}
+Gender Identity: {!$Input:Account.PersonGenderIdentity}
+Health: {!$Input:Account.Health__c}
+Home Phone: {!$Input:Account.PersonHomePhone}
+Mobile: {!$Input:Account.PersonMobilePhone}
+Monthly Expenses: {!$Input:Account.Monthly_Expenses__c}
+Monthly Income: {!$Input:Account.Monthly_Income__c}
+Monthly Savings: {!$Input:Account.Monthly_Savings__c}
+Other Expenses: {!$Input:Account.Other_Expenses__c}
+Phone: {!$Input:Account.Phone}
+Risk Appetite: {!$Input:Account.Risk_Appetite__c}
+
+Instructions:
+- Generate a short compliance report.
+- Analyze financial patterns from Monthly Income, Expenses, and Savings.
+- Identify any risks from Risk Appetite, Rating, and related fields.
+- Recommend actions based on interests, portal status, and program tier.
+- Suggest cross-selling or upselling opportunities.
+- Include other customer insights based on behavior and profile.
+
+</content>
+        <inputs>
+            <apiName>objectToSummarize</apiName>
+            <definition>SOBJECT://Account</definition>
+            <referenceName>Input:Account</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>j17gF0iExmUXOK5IEKy2HWee5iZaL7RDm16+fUirGYk=_3</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Based on the following Salesforce Account record, generate a structured summary with the following keys:
+[&apos;compliance report&apos;, &apos;insights from store audits and product surveys&apos;, &apos;other useful insights&apos;]
+
+Use this data:
+Account Name: {!$Input:Account.Name}
+Salutation: {!$Input:Account.Salutation}
+First Name: {!$Input:Account.FirstName}
+Last Name: {!$Input:Account.LastName}
+Account Number: {!$Input:Account.AccountNumber}
+Customer Interest: {!$Input:Account.Customer_Interest__c}
+Description: {!$Input:Account.Description}
+Education: {!$Input:Account.Education__c}
+Effective Date: {!$Input:Account.EffectiveDate}
+Email: {!$Input:Account.PersonEmail}
+Entertainment: {!$Input:Account.Entertainment__c}
+Food: {!$Input:Account.Food__c}
+Gender Identity: {!$Input:Account.PersonGenderIdentity}
+Health: {!$Input:Account.Health__c}
+Home Phone: {!$Input:Account.PersonHomePhone}
+Mobile: {!$Input:Account.PersonMobilePhone}
+Monthly Expenses: {!$Input:Account.Monthly_Expenses__c}
+Monthly Income: {!$Input:Account.Monthly_Income__c}
+Monthly Savings: {!$Input:Account.Monthly_Savings__c}
+Other Expenses: {!$Input:Account.Other_Expenses__c}
+Phone: {!$Input:Account.Phone}
+Risk Appetite: {!$Input:Account.Risk_Appetite__c}
+
+Instructions:
+- Generate a short compliance report.
+- Analyze financial patterns from Monthly Income, Expenses, and Savings.
+- Identify any risks from Risk Appetite, Rating, and related fields.
+- Recommend actions based on interests, portal status, and program tier.
+- Suggest cross-selling or upselling opportunities.
+- Include other customer insights based on behavior and profile.
+- Keep it short in like 50 to 60 words approx and precise summary.
+</content>
+        <inputs>
+            <apiName>objectToSummarize</apiName>
+            <definition>SOBJECT://Account</definition>
+            <referenceName>Input:Account</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>j17gF0iExmUXOK5IEKy2HWee5iZaL7RDm16+fUirGYk=_4</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Based on the following Salesforce Account record, generate a structured summary with the following keys:
+[&apos;compliance report&apos;, &apos;insights from store audits and product surveys&apos;, &apos;other useful insights&apos;]
+
+Use this data:
+Account Name: {!$Input:Account.Name}
+Salutation: {!$Input:Account.Salutation}
+First Name: {!$Input:Account.FirstName}
+Last Name: {!$Input:Account.LastName}
+Account Number: {!$Input:Account.AccountNumber}
+Customer Interest: {!$Input:Account.Customer_Interest__c}
+Description: {!$Input:Account.Description}
+Education: {!$Input:Account.Education__c}
+Effective Date: {!$Input:Account.EffectiveDate}
+Email: {!$Input:Account.PersonEmail}
+Entertainment: {!$Input:Account.Entertainment__c}
+Food: {!$Input:Account.Food__c}
+Gender Identity: {!$Input:Account.PersonGenderIdentity}
+Health: {!$Input:Account.Health__c}
+Home Phone: {!$Input:Account.PersonHomePhone}
+Mobile: {!$Input:Account.PersonMobilePhone}
+Monthly Expenses: {!$Input:Account.Monthly_Expenses__c}
+Monthly Income: {!$Input:Account.Monthly_Income__c}
+Monthly Savings: {!$Input:Account.Monthly_Savings__c}
+Other Expenses: {!$Input:Account.Other_Expenses__c}
+Phone: {!$Input:Account.Phone}
+Risk Appetite: {!$Input:Account.Risk_Appetite__c}
+
+Instructions:
+- Generate a short compliance report.
+- Analyze financial patterns from Monthly Income, Expenses, and Savings.
+- Identify any risks from Risk Appetite, Rating, and related fields.
+- Recommend actions based on interests, portal status, and program tier.
+- Suggest cross-selling or upselling opportunities.
+- Include other customer insights based on behavior and profile.
+- Dont include * marks anywhere.
+</content>
+        <inputs>
+            <apiName>objectToSummarize</apiName>
+            <definition>SOBJECT://Account</definition>
+            <referenceName>Input:Account</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>j17gF0iExmUXOK5IEKy2HWee5iZaL7RDm16+fUirGYk=_5</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Based on the following Salesforce Account record, generate a structured summary with the following keys:
+[&apos;compliance report&apos;, &apos;insights from store audits and product surveys&apos;, &apos;other useful insights&apos;]
+
+Use this data:
+Account Name: {!$Input:Account.Name}
+Salutation: {!$Input:Account.Salutation}
+First Name: {!$Input:Account.FirstName}
+Last Name: {!$Input:Account.LastName}
+Account Number: {!$Input:Account.AccountNumber}
+Customer Interest: {!$Input:Account.Customer_Interest__c}
+Description: {!$Input:Account.Description}
+Education: {!$Input:Account.Education__c}
+Effective Date: {!$Input:Account.EffectiveDate}
+Email: {!$Input:Account.PersonEmail}
+Entertainment: {!$Input:Account.Entertainment__c}
+Food: {!$Input:Account.Food__c}
+Gender Identity: {!$Input:Account.PersonGenderIdentity}
+Health: {!$Input:Account.Health__c}
+Home Phone: {!$Input:Account.PersonHomePhone}
+Mobile: {!$Input:Account.PersonMobilePhone}
+Monthly Expenses: {!$Input:Account.Monthly_Expenses__c}
+Monthly Income: {!$Input:Account.Monthly_Income__c}
+Monthly Savings: {!$Input:Account.Monthly_Savings__c}
+Other Expenses: {!$Input:Account.Other_Expenses__c}
+Phone: {!$Input:Account.Phone}
+Risk Appetite: {!$Input:Account.Risk_Appetite__c}
+
+Instructions:
+- Generate a short compliance report.
+- Analyze financial patterns from Monthly Income, Expenses, and Savings.
+- Identify any risks from Risk Appetite, Rating, and related fields.
+- Recommend actions based on interests, portal status, and program tier.
+- Suggest cross-selling or upselling opportunities.
+- Include other customer insights based on behavior and profile.
+- Just keep plain font and not bold fonts anywhere.
+</content>
+        <inputs>
+            <apiName>objectToSummarize</apiName>
+            <definition>SOBJECT://Account</definition>
+            <referenceName>Input:Account</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Draft</status>
+        <versionIdentifier>j17gF0iExmUXOK5IEKy2HWee5iZaL7RDm16+fUirGYk=_6</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Based on the following Salesforce Account record, generate a structured summary with the following keys:
+[&apos;compliance report&apos;, &apos;insights from store audits and product surveys&apos;, &apos;other useful insights&apos;]
+
+Use this data:
+Account Name: {!$Input:Account.Name}
+Salutation: {!$Input:Account.Salutation}
+First Name: {!$Input:Account.FirstName}
+Last Name: {!$Input:Account.LastName}
+Account Number: {!$Input:Account.AccountNumber}
+Customer Interest: {!$Input:Account.Customer_Interest__c}
+Description: {!$Input:Account.Description}
+Education: {!$Input:Account.Education__c}
+Effective Date: {!$Input:Account.EffectiveDate}
+Email: {!$Input:Account.PersonEmail}
+Entertainment: {!$Input:Account.Entertainment__c}
+Food: {!$Input:Account.Food__c}
+Gender Identity: {!$Input:Account.PersonGenderIdentity}
+Health: {!$Input:Account.Health__c}
+Home Phone: {!$Input:Account.PersonHomePhone}
+Mobile: {!$Input:Account.PersonMobilePhone}
+Monthly Expenses: {!$Input:Account.Monthly_Expenses__c}
+Monthly Income: {!$Input:Account.Monthly_Income__c}
+Monthly Savings: {!$Input:Account.Monthly_Savings__c}
+Other Expenses: {!$Input:Account.Other_Expenses__c}
+Phone: {!$Input:Account.Phone}
+Risk Appetite: {!$Input:Account.Risk_Appetite__c}
+
+Instructions:
+- Generate a short compliance report.
+- Analyze financial patterns from Monthly Income, Expenses, and Savings.
+- Identify any risks from Risk Appetite, Rating, and related fields.
+- Recommend actions based on interests, portal status, and program tier.
+- Suggest cross-selling or upselling opportunities.
+- Include other customer insights based on behavior and profile.
+- Just keep plain font and not bold fonts anywhere.
+</content>
+        <inputs>
+            <apiName>objectToSummarize</apiName>
+            <definition>SOBJECT://Account</definition>
+            <referenceName>Input:Account</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Draft</status>
+        <versionIdentifier>j17gF0iExmUXOK5IEKy2HWee5iZaL7RDm16+fUirGYk=_7</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Based on the following Salesforce Account record, generate a structured summary with the following keys:
+[&apos;compliance report&apos;, &apos;insights from store audits and product surveys&apos;, &apos;other useful insights&apos;]
+
+Use this data:
+Account Name: {!$Input:Account.Name}
+Salutation: {!$Input:Account.Salutation}
+First Name: {!$Input:Account.FirstName}
+Last Name: {!$Input:Account.LastName}
+Account Number: {!$Input:Account.AccountNumber}
+Customer Interest: {!$Input:Account.Customer_Interest__c}
+Description: {!$Input:Account.Description}
+Education: {!$Input:Account.Education__c}
+Effective Date: {!$Input:Account.EffectiveDate}
+Email: {!$Input:Account.PersonEmail}
+Entertainment: {!$Input:Account.Entertainment__c}
+Food: {!$Input:Account.Food__c}
+Gender Identity: {!$Input:Account.PersonGenderIdentity}
+Health: {!$Input:Account.Health__c}
+Home Phone: {!$Input:Account.PersonHomePhone}
+Mobile: {!$Input:Account.PersonMobilePhone}
+Monthly Expenses: {!$Input:Account.Monthly_Expenses__c}
+Monthly Income: {!$Input:Account.Monthly_Income__c}
+Monthly Savings: {!$Input:Account.Monthly_Savings__c}
+Other Expenses: {!$Input:Account.Other_Expenses__c}
+Phone: {!$Input:Account.Phone}
+Risk Appetite: {!$Input:Account.Risk_Appetite__c}
+
+Instructions:
+- Generate a short compliance report.
+- Analyze financial patterns from Monthly Income, Expenses, and Savings.
+- Identify any risks from Risk Appetite, Rating, and related fields.
+- Recommend actions based on interests, portal status, and program tier.
+- Suggest cross-selling or upselling opportunities.
+- Include other customer insights based on behavior and profile.
+- Just keep plain font and not bold fonts anywhere.
+- Whenever beginning a new sentence or new point use capital letter as first letter.
+</content>
+        <inputs>
+            <apiName>objectToSummarize</apiName>
+            <definition>SOBJECT://Account</definition>
+            <referenceName>Input:Account</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>j17gF0iExmUXOK5IEKy2HWee5iZaL7RDm16+fUirGYk=_8</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__recordSummary</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

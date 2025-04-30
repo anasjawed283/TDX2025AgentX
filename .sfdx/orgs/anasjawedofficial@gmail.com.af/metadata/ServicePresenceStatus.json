@@ -1,0 +1,53 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000K9mOVYAZ",
+      "createdByName": "OrgFarm EPIC",
+      "createdDate": "2025-04-21T12:42:22.000Z",
+      "fileName": "servicePresenceStatuses/Busy.servicePresenceStatus",
+      "fullName": "Busy",
+      "id": "0N5NS000000IR4z0AG",
+      "lastModifiedById": "005NS00000K9mOVYAZ",
+      "lastModifiedByName": "OrgFarm EPIC",
+      "lastModifiedDate": "2025-04-21T12:42:22.000Z",
+      "type": "ServicePresenceStatus"
+    },
+    {
+      "createdById": "005NS00000K9mOVYAZ",
+      "createdByName": "OrgFarm EPIC",
+      "createdDate": "2025-04-21T12:42:34.000Z",
+      "fileName": "servicePresenceStatuses/Messaging_Available.servicePresenceStatus",
+      "fullName": "Messaging_Available",
+      "id": "0N5NS000000IR8D0AW",
+      "lastModifiedById": "005NS00000K9mOVYAZ",
+      "lastModifiedByName": "OrgFarm EPIC",
+      "lastModifiedDate": "2025-04-21T12:42:34.000Z",
+      "type": "ServicePresenceStatus"
+    },
+    {
+      "createdById": "005NS00000KmZeIYAV",
+      "createdByName": "Ananya Mukherjee",
+      "createdDate": "2025-04-30T03:27:21.000Z",
+      "fileName": "servicePresenceStatuses/Available.servicePresenceStatus",
+      "fullName": "Available",
+      "id": "0N5NS000000LDiD0AW",
+      "lastModifiedById": "005NS00000KmZeIYAV",
+      "lastModifiedByName": "Ananya Mukherjee",
+      "lastModifiedDate": "2025-04-30T03:27:21.000Z",
+      "type": "ServicePresenceStatus"
+    },
+    {
+      "createdById": "005NS00000K9mOVYAZ",
+      "createdByName": "OrgFarm EPIC",
+      "createdDate": "2025-04-21T12:42:22.000Z",
+      "fileName": "servicePresenceStatuses/Cases_Available.servicePresenceStatus",
+      "fullName": "Cases_Available",
+      "id": "0N5NS000000IR500AG",
+      "lastModifiedById": "005NS00000K9mOVYAZ",
+      "lastModifiedByName": "OrgFarm EPIC",
+      "lastModifiedDate": "2025-04-21T12:42:22.000Z",
+      "type": "ServicePresenceStatus"
+    }
+  ]
+}

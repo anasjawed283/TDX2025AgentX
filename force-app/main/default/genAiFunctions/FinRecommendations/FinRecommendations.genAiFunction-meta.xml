@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Analyze the customer&apos;s financial profile based on the provided inputs and generate personalized investment suggestions along with one financial improvement tip. Use a friendly and helpful tone. Keep the output under 600 words.</description>
+    <invocationTarget>FinRecommendations</invocationTarget>
+    <invocationTargetType>generatePromptResponse</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>FinRecommendations</masterLabel>
+    <progressIndicatorMessage>FinHackers In progress</progressIndicatorMessage>
+</GenAiFunction>

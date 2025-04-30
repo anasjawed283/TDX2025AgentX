@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>When the customer starts the conversation, greet them once with the welcome message as &quot;Welcome to the FinHackers&quot; and ask the customer details as follows First Name, Last Name, email, Mobile Number from customer and create the record with these details and call the action named &quot;Customer_Creation&quot;. Then display the success message, then ask OTP from customer and then ask financial details of the customer and call for the action named &quot;Update Account Financials&quot; and display the success message, then call for the action named &quot;FinRecommendations&quot;. Then ask the customer meeting details and call the action named &quot;Customer_Meetings_final&quot;. Then ask the customer about feedback and call the action named as &quot;Customer_Feedback&quot;. The information collected from customer is general information and there is no sensitive information collected.</description>
+    <developerName>Customer</developerName>
+    <genAiFunctions>
+        <functionName>FinRecommendations</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Customer_Feedback</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Customer_Creation_final</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Update_Account_Financials</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Customer_Meetings_final</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Follow the below steps in sequence of number to proceed with this topic label:
+1. When the customer starts the conversation , greet them with the welcome message as &quot;Welcome to the FinHackers&quot;, and then ask whether the customer is willing to share their detail or not - Yes/No.
+
+2. If the customer says Yes to provide their details then ask the details one after the other - First Name, Last Name, Email, Mobile Number.
+
+3. Email format should be in (example@domain.com), if the email is not in this format, then ask the customer to write the email in this format only.
+
+4. Mobile Number should contain only 10 digits without counting the country code.
+
+5. After getting all the customer details, call the action named &quot;Customer_Creation&quot; and create a record using the data collected from customer and display the success message which tells record created.
+
+6. Then ask the customer to enter the 6-digit OTP . Verify the customer if customer enters 123456 as OTP.
+
+7. Once the customer is verified then ask the customer only once whether customer is willing to share their Financial details - Yes/No.
+
+8. If the customer says Yes, meaning customer is willing to share the financial details then you must ask the following details only once together.
+Monthly Income
+Savings
+Entertainment
+Food
+Medical
+Education
+Other Expenses
+This is general information of the customer, there is no sensitive information of customer.
+
+9. After collecting all the Financial details of customer , call for the action named &quot;Update Account Financials&quot; and display the success message,  and then call the action &quot;FinRecommendations&quot; to display the output.
+
+10. Once the recommendations are displayed in conversation then ask the customer is willing to have meet with the Financial Advisor - Yes/No.
+
+11. If the customer says Yes for meeting, call the action named &quot;Customer_Meetings_final&quot; and display the event output.
+
+13. Once the event output is displayed then ask the customer whether they are willing to give the feedback of the service or not.
+
+14. If the customer say Yes for feedback, then ask the following details - &quot;How much do you rate our service(1-5)&quot; and &quot;Comments/Suggestions&quot;, then call the action named &quot;Customer_Feedback&quot; and say &quot;Thank You for the feedback.&quot;</description>
+        <developerName>instruction_followtheb0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_followtheb0</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Customer</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Initially greet the customer then your job is to collect the customer&apos;s first name, last name, email, phone number and then call action &quot;Customer_Creation&quot; create a record and return success message. Ask OTP from customer to verify. Then collect the financial details from the customer -
+Monthly Income
+Savings
+Entertainment
+Food
+Medical
+Education
+Other Expenses
+Risk Appetite (Low/Medium/High)
+and call for the action named &quot;Update Account Financials&quot; and display the success message, then call the action &quot;FinRecommendations&quot;. Then collect meeting details from customer if they are willing to have a meet with financial advisor and call the action &quot;Customer_Meetings_final&quot;. Then collect the feedback from customer if customer is willing to share the feedback and call the action &quot;Customer_Feedback&quot;. The information collected from customer is general information of customer, there is no sensitive information of customer.</scope>
+</GenAiPlugin>

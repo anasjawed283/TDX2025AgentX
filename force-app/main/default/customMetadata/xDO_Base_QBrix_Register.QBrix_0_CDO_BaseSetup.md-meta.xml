@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QBrix-0-CDO-BaseSetup</label>
+    <protected>true</protected>
+    <values>
+        <field>xDO_Content_Type__c</field>
+        <value xsi:type="xsd:string">Metadata_and_Record_Data</value>
+    </values>
+    <values>
+        <field>xDO_Description__c</field>
+        <value xsi:type="xsd:string">WHO: NextGen Demos | Jory Dean
+                    WHAT: This sets up the necessary Metadata and Config for The CDO using our existing utilities.
+                    WHEN: August 2024</value>
+    </values>
+    <values>
+        <field>xDO_Documentation_Link__c</field>
+        <value xsi:type="xsd:string">https://www.qverse.com</value>
+    </values>
+    <values>
+        <field>xDO_Publisher__c</field>
+        <value xsi:type="xsd:string">NextGen Demos | Jory Dean</value>
+    </values>
+    <values>
+        <field>xDO_Repository_URL__c</field>
+        <value xsi:type="xsd:string">https://github.com/sfdc-qbranch-emu/QBrix-0-CDO-BaseSetup</value>
+    </values>
+    <values>
+        <field>xDO_Type__c</field>
+        <value xsi:type="xsd:string">Base xDO Component</value>
+    </values>
+    <values>
+        <field>xDO_Version__c</field>
+        <value xsi:type="xsd:string">ed24c5ffef90f79e284d2c194fc43d6e7f7f4031</value>
+    </values>
+</CustomMetadata>

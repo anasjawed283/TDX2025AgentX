@@ -1,0 +1,122 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-30T03:21:12.000Z",
+      "fileName": "genAiFunctions/Customer_Meetings1.genAiFunction",
+      "fullName": "Customer_Meetings1",
+      "id": "172NS00000DdXpRYAV",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-30T03:21:12.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-29T12:38:04.000Z",
+      "fileName": "genAiFunctions/FinRecommendations.genAiFunction",
+      "fullName": "FinRecommendations",
+      "id": "172NS00000DaVFVYA3",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-29T12:38:04.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-29T13:02:56.000Z",
+      "fileName": "genAiFunctions/Customer_Meetings.genAiFunction",
+      "fullName": "Customer_Meetings",
+      "id": "172NS00000DaaBxYAJ",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-29T13:02:56.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-29T16:36:29.000Z",
+      "fileName": "genAiFunctions/Customer_Feedback.genAiFunction",
+      "fullName": "Customer_Feedback",
+      "id": "172NS00000DbJ0IYAV",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-29T16:36:29.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-30T09:35:49.000Z",
+      "fileName": "genAiFunctions/Customer_Meetings_final.genAiFunction",
+      "fullName": "Customer_Meetings_final",
+      "id": "172NS00000DeleLYAR",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-30T09:35:49.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-30T08:32:54.000Z",
+      "fileName": "genAiFunctions/Customer_Verification.genAiFunction",
+      "fullName": "Customer_Verification",
+      "id": "172NS00000Dehi3YAB",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-30T08:32:54.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-30T06:42:13.000Z",
+      "fileName": "genAiFunctions/Update_Account_Financials.genAiFunction",
+      "fullName": "Update_Account_Financials",
+      "id": "172NS00000DeNfxYAF",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-30T06:42:13.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-30T05:48:44.000Z",
+      "fileName": "genAiFunctions/Customer_Creation_final.genAiFunction",
+      "fullName": "Customer_Creation_final",
+      "id": "172NS00000Ddx7BYAR",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-30T08:38:26.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    },
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-29T12:30:19.000Z",
+      "fileName": "genAiFunctions/Customer_Creation.genAiFunction",
+      "fullName": "Customer_Creation",
+      "id": "172NS00000Da0lCYAR",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-29T12:30:19.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiFunction"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmcUzYAJ",
+      "createdByName": "Jaini Karthik",
+      "createdDate": "2025-04-29T09:43:49.000Z",
+      "fileName": "genAiPlanners/Finanace_Advisor_Agent.genAiPlanner",
+      "fullName": "Finanace_Advisor_Agent",
+      "id": "16jNS000000kDzxYAE",
+      "lastModifiedById": "005NS00000KmcUzYAJ",
+      "lastModifiedByName": "Jaini Karthik",
+      "lastModifiedDate": "2025-04-29T09:43:49.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiPlanner"
+    },
+    {
+      "createdById": "005NS00000KmZeIYAV",
+      "createdByName": "Ananya Mukherjee",
+      "createdDate": "2025-04-29T10:11:39.000Z",
+      "fileName": "genAiPlanners/EmployeeCopilotPlanner.genAiPlanner",
+      "fullName": "EmployeeCopilotPlanner",
+      "id": "16jNS000000kF7JYAU",
+      "lastModifiedById": "005NS00000KmZeIYAV",
+      "lastModifiedByName": "Ananya Mukherjee",
+      "lastModifiedDate": "2025-04-29T10:11:39.000Z",
+      "manageableState": "unmanaged",
+      "type": "GenAiPlanner"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The action triggers after the FinRecommendations and schedules a meet with an advisor for customer based on customer&apos;s interest.</description>
+    <invocationTarget>Customer_Meetings</invocationTarget>
+    <invocationTargetType>flow</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>Customer_Meetings_final</masterLabel>
+    <progressIndicatorMessage>Scheduling the meet</progressIndicatorMessage>
+</GenAiFunction>

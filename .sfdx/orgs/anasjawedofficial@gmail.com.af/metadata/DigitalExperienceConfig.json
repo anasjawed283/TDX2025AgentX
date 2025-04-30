@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmZeIYAV",
+      "createdByName": "Ananya Mukherjee",
+      "createdDate": "2025-04-30T04:29:52.000Z",
+      "fileName": "digitalExperienceConfigs/ESW_Finance_Advisor_Agent_17459873797311.digitalExperienceConfig",
+      "fullName": "ESW_Finance_Advisor_Agent_17459873797311",
+      "id": "0DMNS000001HtFe4AK",
+      "lastModifiedById": "005NS00000KmZeIYAV",
+      "lastModifiedByName": "Ananya Mukherjee",
+      "lastModifiedDate": "2025-04-30T04:30:34.000Z",
+      "type": "DigitalExperienceConfig"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "required" : [ "Customer_Email", "Customer_First_Name", "Customer_Last_Name", "Customer_Mobile" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Customer_Email" : {
+      "title" : "Customer_Email",
+      "description" : "Customer's email address",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Customer_First_Name" : {
+      "title" : "Customer_First_Name",
+      "description" : "Customer's first name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Customer_Last_Name" : {
+      "title" : "Customer_Last_Name",
+      "description" : "Customer's last name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Customer_Mobile" : {
+      "title" : "Customer_Mobile",
+      "description" : "Customer's Mobile number",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

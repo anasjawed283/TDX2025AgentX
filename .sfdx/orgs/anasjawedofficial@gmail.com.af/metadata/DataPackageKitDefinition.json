@@ -1,0 +1,19 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005NS00000KmjSMYAZ",
+      "createdByName": "Manish Porwal",
+      "createdDate": "2025-04-30T03:30:11.000Z",
+      "fileName": "dataPackageKitDefinitions/cdp_crm_dk1__SalesDK.dataPackageKitDefinition",
+      "fullName": "cdp_crm_dk1__SalesDK",
+      "id": "1dkNS000000BWCfYAO",
+      "lastModifiedById": "005NS00000KmjSMYAZ",
+      "lastModifiedByName": "Manish Porwal",
+      "lastModifiedDate": "2025-04-30T03:30:11.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "cdp_crm_dk1",
+      "type": "DataPackageKitDefinition"
+    }
+  ]
+}

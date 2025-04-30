@@ -1,0 +1,14 @@
+{
+  "required" : [ "Email_of_Customer" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Email_of_Customer" : {
+      "title" : "Email_of_Customer",
+      "description" : "Customer's mail address",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
